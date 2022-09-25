@@ -1,0 +1,141 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+#title{
+    background-image: url('images/back1.jpg');
+    color:white;
+    border-bottom: 5px solid grey;
+    
+}
+.logo-img{
+    width:250px;
+    height:100px;
+    
+}
+.header{
+    text-align: center;
+    padding:7% 20%;
+}
+.title-heading{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+.input-field{
+    width:500px;
+    height:60px;
+   
+ 
+    
+}
+.start-btn{
+
+    height:60px;
+    background-color: red;
+    color: #fff;
+   /* float:left; */
+}
+.row{
+    margin-top:20px;
+}
+.title-form{
+    margin-left: 150px;
+
+}
+
+@media (max-width:900px)
+{
+    .title-heading{
+        font-size: 2rem;
+    }
+    .header{
+        padding:3% 3%;
+    }
+   
+}
+
+@media (max-width:1240px ) 
+{
+    .input-field{
+        width:80%;
+        height:50px;
+        margin-bottom: 10px;
+
+    }
+    .start-btn{
+        float: none;
+       margin: auto;
+       height:50px ;
+    }
+    .title-form{
+        margin-left: 0;
+    
+    }
+}
+
+
+#film{
+    color: black;
+    text-align: center;
+  background-image: url('images/back1.jpg');
+  border-bottom: 5px solid grey;
+}
+
+.card{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+/* enjoy section */
+
+#enjoy{
+   /* color: black; */
+  
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid grey;
+    
+}
+.enjoy-img{
+    border-radius: 100%;
+    margin-top: 35px;
+}
+.enjoy-content{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+@media (max-width:800px)
+{
+    .enjoy-content{
+        font-size: 1.5rem;
+    }
+}
+
+/* footer-section */
+
+#footer{
+    color:black;
+   
+    padding: 7% 15%;
+    text-align: center;
+}
+.icon{
+    margin: 10px 10px 15px;
+}
+p{
+    color: #8f8f8f;
+}
